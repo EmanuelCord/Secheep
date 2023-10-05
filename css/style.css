@@ -111,7 +111,6 @@ img {
         flex-direction: column;
         gap: 20px;
         flex-shrink: 0;
-        align-self: stretch;
     }
 }
 
@@ -154,11 +153,8 @@ img {
 
 @media (min-width: 768px) {
     .title-form {
-        display: flex;
         padding: 10px 20px;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 }
 
@@ -436,6 +432,7 @@ footer {
 
 @media (min-width: 425px) {
     .contenedor {
+        padding: 150px 15px;
     }
 }
 
@@ -454,11 +451,7 @@ footer {
 
 @media (min-width: 768px) {
     .banner {
-        display: flex;
         padding: 20px 66px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 50px;
         align-self: stretch;
     }
@@ -466,7 +459,7 @@ footer {
 
 @media (min-width: 425px) {
     .banner {
-        
+        padding: 20px;
     }
 }
 
@@ -482,9 +475,21 @@ footer {
     color: var(--skyblue);
 }
 
+.titulo_blue {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    align-self: stretch;
+    color: var(--blue);
+}
+
 @media (min-width: 425px) {
     .titulo {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -507,4 +512,18 @@ footer {
     .info {
         font-size: 14px;
     }
+}
+
+@media (min-width: 425px) {
+    .info {
+        font-size: 18px;
+    } 
+}
+
+.datos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    align-self: stretch;
 }
