@@ -141,6 +141,11 @@ img {
     }
 }
 
+.comprobante {
+    padding: 100px 10px;
+}
+
+
 .title-form {
     display: flex;
     align-self: stretch;
@@ -526,4 +531,50 @@ footer {
     font-weight: 500;
     font-style: normal;
     align-self: stretch;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    align-self: stretch;
+    text-align: left;
+
+}
+
+.box_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+@media (min-width: 768px) {
+    .box_info {
+        width: 370px;
+        justify-content: center;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+}
+
+@media (min-width: 425px) {
+    .box_info {
+        display: flex;
+        width: 358px;
+        justify-content: center;
+        flex-direction: column;
+        flex-shrink: 0;
+    } 
+}
+
+/*MENU PRINCIPAL*/
+
+.inicio {
+    padding: 150px 10px;
+}
+
+a {
+    text-decoration: none;
 }

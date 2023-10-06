@@ -17,30 +17,30 @@
 <body>
     <!--HEADER-->
     <nav>
-        <img src="assets/img/Logos.png" alt="logo">
+        <img src="assets/img/Logos.png" alt="logo"><br>
+        <a href="index.html"><button class="boton-text" name="submit" type="submit" id="contact-submit" data-submit="...Enviando">inicio</button></a>
     </nav>
 
     <!--FORM-->
-    <div class="formulario inicio">
+    <div class="formulario">
         <div class="formulario-box">
             <div class="title-form">
-                <a href="adhesion_a_factura.html"><h1 class="blanco"><span class="light">Formulario de adhesión</span><br>Factura Digital</h1></a>
+                <h1 class="blanco"><span class="light">Formulario de adhesión</span><br>Factura Digital</h1>
             </div>
-            <div class="title-form">
-                <a href="comprobante-de-pago.html"><h1 class="blanco"><span class="light">Comprobante de</span><br>Pago</h1></a>                
-            </div>
-            <div class="title-form">
-                <a href="vencimiento-de-factura.html"><h1 class="blanco"><span class="light">Vencimiento de</span><br>Factura</h1></a>
-            </div>
-            <div class="title-form">
-                <a href="eliminar-cuenta.html"><h1 class="blanco"><span class="light">Eliminar</span><br>Cuenta</h1></a>
-            </div>
-            <div class="title-form">
-                <a href="confirmacion-registro.html"><h1 class="blanco"><span class="light">Confirmación de</span><br>Registro</h1></a>                
-            </div>
-            <div class="title-form">
-                <a href="restablecer-contrasena.html"><h1 class="blanco"><span class="light">Restablecer</span><br>Contraseña</h1></a>
-            </div>
+            <p class="nota">Nota: Los campors con el simbolo * son obligatorios</p>
+            <form action="">
+                <label for="nref">Número de referencia</label>
+                <input class="campo" type="number" id="nref" name="nref" placeholder="Número de referencia"><br>
+                <label for="mail1">Correo Electrónico</label>
+                <input class="campo" type="email" id="mail1" name="nref" placeholder="Correo Electrónico"><br>
+                <label for="mail2">Correo electrónico alternativo</label>
+                <input class="campo" type="email" id="nref" name="mail2" placeholder="Correo electrónico alternativo"><br>
+                <label for="tel">Número de teléfono</label>
+                <input class="campo" type="tel" id="nref" name="tel" placeholder="Número de teléfono">
+                <p class="nota">Términos y condiciones<br>
+                Acepto los Términos de servicios. Los datos completados se procesarán de acuerdo a ellos.</p>
+                <button class="boton-text" name="submit" type="submit" id="contact-submit" data-submit="...Enviando">Enviar</button>
+            </form>
         </div>
     </div>
 
